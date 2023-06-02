@@ -31,6 +31,12 @@
         body {
             font-size: 12px;
         }
+
+		
+
+			
+
+		
     </style>
 	<script>
     	var AIZ = AIZ || {};
@@ -81,7 +87,7 @@
 
 	<script src="{{ static_asset('assets/js/vendors.js') }}" ></script>
 	<script src="{{ static_asset('assets/js/aiz-core.js') }}" ></script>
-
+	<script src="{{ static_asset('assets/js/custom.js') }}" ></script>
     @yield('script')
 
     <script type="text/javascript">

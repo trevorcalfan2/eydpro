@@ -51,6 +51,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="{{ static_asset('assets/css/vendors.css') }}">
@@ -127,6 +128,15 @@
         .pagination .page-item {
             margin: 0 5px;
         }
+        .invalid {
+			
+			color:#ec3f41;
+			}
+			.valid {
+
+			color:#3a7d34;
+			}
+
 
         .aiz-carousel.coupon-slider .slick-track{
             margin-left: 0;
